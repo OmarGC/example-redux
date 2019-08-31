@@ -17,3 +17,5 @@ npm build
 
 
 #### Desarrollador: Omargc
+
+##### Página color fondo: https://uigradients.com/#CalmDarya
