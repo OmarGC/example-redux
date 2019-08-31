@@ -64,10 +64,10 @@ const AgregarCita = () => {
         <h2 className="card-title text-center mb-5">Agrega las citas aqui</h2>
         <form onSubmit={submitNewAppointment}>
           <div className="form-group row">
-            <label className="col-sm-4 col-lg-2 col-form-label">
+            <label className="col-sm-4 col-4 col-form-label">
               Nombre Mascota
             </label>
-            <div className="col-sm-8 col-lg-10">
+            <div className="col-sm-8 col-lg-8">
               <input
                 type="text"
                 className="form-control"
@@ -78,10 +78,10 @@ const AgregarCita = () => {
             </div>
           </div>
           <div className="form-group row">
-            <label className="col-sm-4 col-lg-2 col-form-label">
+            <label className="col-sm-4 col-lg-4 col-form-label">
               Nombre Dueño
             </label>
-            <div className="col-sm-8 col-lg-10">
+            <div className="col-sm-8 col-lg-8">
               <input
                 type="text"
                 className="form-control"
@@ -115,8 +115,8 @@ const AgregarCita = () => {
           </div>
 
           <div className="form-group row">
-            <label className="col-sm-4 col-lg-2 col-form-label">Sintomas</label>
-            <div className="col-sm-8 col-lg-10">
+            <label className="col-sm-4 col-lg-3 col-form-label">Sintomas</label>
+            <div className="col-sm-8 col-lg-9">
               <textarea
                 className="form-control"
                 value={ symptom }
