@@ -1,10 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import AgregarCita from './components/AgregarCita'
-import ListadoCitas from './components/ListadoCitas'
+import AgregarCita from './AgregarCita'
+import ListadoCitas from './ListadoCitas'
 
 // Redux
-import store from './store';
+import store from '../store';
 import { Provider } from 'react-redux';
 
 function App() {
